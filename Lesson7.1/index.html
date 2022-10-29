@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="#" class="myForm">
+        <div class="row">
+            <div class="column">
+                <div class="input row">
+                    <label for="customer_name">Name</label>
+                    <input type="name" name="customer_name" id="">
+                </div>
+                <div class="input row">
+                    <label for="customer_phone">Phone</label>
+                    <input type="phone" name="Phone" id="customer phone">
+                </div>
+                <div class="input row">
+                    <label for="customer_email">Email</label>
+                    <input type="email" name="email" id="customer_email">
+                </div>
+                <div class="input row">
+                    <label for="pickup_tipe">Pickup Date Time</label>
+                    <input type="datetime-local" name="pickup" id="pickup_time">
+                </div>
+                <div class="input row">
+                    <label for="pickup_place">Pickup Place</label>
+                    <select name="place" id="pickup_place">
+                        <option value="">Select one</option>
+                        <option value="taxi">Taxi office</option>
+                        <option value="town">Town Hall</option>
+                        <option value="guess">We'll Guess!</option>
+                    </select>
+                </div>
+                <div class="input row">
+                    <label for="dropof_place">Droopoff Place</label>
+                        <option value=""></option>
+                    <input type="text" name="dropof_place" id="dropof_place">
+                </div>
+            </div>
+            <div class="column">
+                <fieldset class="taxi">
+                    <legend>Which taxi do you reqierre?</legend>
+                    <label> <input type="radio" value="car" name="taxi"> Car </label>
+                    <label> <input type="radio" value="van" name="taxi"> Van </label>
+                    <label> <input type="radio" value="tuktuk" name="taxi"> Tuk Tuk </label>
+                </fieldset>
+
+                <fieldset class="extras">
+                    <legend>Extras</legend>
+                    <label> <input type="checkbox" value="baby" name="baby"> Baby Seat </label>
+                    <label> <input type="checkbox" value="wheelchair" name="wheelchair"> wheelchair accsess </label>
+                    <label> <input type="checkbox" value="tip" name="tip"> Stock tip </label>
+                </fieldset>
+            </div>
+            </div>
+            <div class="row">
+                <button type="submit">Submit Booking</button>
+            </div>
+        </div>
+    </form>
+
+    
+</body>
+</html>

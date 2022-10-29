@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- <div>
+        <div class="testbox">
+            <form action="#">
+                <h1>Workplace Complaint Form</h1>
+                <div class="inform">
+                    <p>Your name</p>
+                    <input type="text" name="fname" placeholder="First">
+                    <input type="text" name="lname" placeholder="Last">
+                </div>
+                <div class="inform">
+                    <p>Your email</p>
+                    <input type="email" name="email">
+                </div>
+                <div class="inform">
+                    <p>Date of Complaint</p>
+                    <input type="date" name="date">
+                </div>
+                <div class="inform">
+                    <p>Your department</p>
+                    <select name="department">
+                        <option value="">*Please select*</option>
+                        <option value="A">Department A</option>
+                        <option value="B">Department B</option>
+                        <option value="C">Department C</option>
+                        <option value="D">Department D</option>
+                        <option value="E">Department E</option>
+                    </select>
+                </div>
+                <div class="inform">
+                    <p>Office manager name</p>
+                    <input type="manager" name="manager">
+                </div>
+                <div class="inform">
+                    <p>The person(s) involed in this complaint are</p>
+                    <textarea rows="10"></textarea>
+                </div>
+                <div class="inform">
+                    <p>Note all relevant dates,places,events,etc.pertainig to the complaint</p>
+                    <textarea rows="10"></textarea>
+                </div>
+                <div class="inform">
+                    <p>Signature</p>
+                    <textarea rows="10"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit"> Send </button>
+                </div>
+            </form>
+        </div>
+    </div>  -->
+
+    <form action="#">
+        <h1>Форма заявки на работу в зоопарке </h1>
+        <p><i>Пожалуйста, заполните форму. Обязательные поля помечены</i><span>*</span></p>
+        <fieldset>
+          <legend>Контактная информация</legend>
+          <div>
+            <label for="name">Имя <span>*</span></label>
+            <input id="name"><br>
+            <div><label for="telephone">Телефон</label>
+                <input id="telephone"><br>
+            </div>
+            <div><label for="email">Email <span>*</span></label>
+                <input id="email"><br>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Персональная информация</legend>
+          <div><label for="age">Возраст<span>*</span></label>
+            <input id="age"><br>
+          </div>
+           <div><label for="gender">Пол</label>
+            <select id="gender">
+           </div>
+            <div><option value="female">Женщина</option>
+                <option value="male">Мужчина</option>
+            </div>
+             
+            </select><br>
+            <label for="comments">Перечислите личные качества</label>
+            <textarea id="comments"></textarea>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Выберите ваших любимых животных</legend>
+          <label for="zebra"><input id="zebra" type="checkbox"> Зебра</label>
+          <label for="cat"><input id="cat" type="checkbox"> Кошак</label>
+          <label for="anaconda"><input id="anaconda" type="checkbox"> Анаконда</label>
+          <label for="human"><input id="human" type="checkbox"> Человек</label>
+          <label for="elephant"><input id="elephant" type="checkbox"> Слон</label>
+          <label for="wildebeest"><input id="wildebeest" type="checkbox"> Антилопа</label>
+          <label for="pigeon"><input id="pigeon" type="checkbox"> Голубь</label>
+          <label for="crab"><input id="crab" type="checkbox"> Краб</label>
+        </fieldset>
+        <p><input type="submit" value="Отправить информацию"></p>
+      </form>
+            
+</body>
+</html>

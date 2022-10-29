@@ -1,0 +1,50 @@
+*{
+    margin: 20;
+    padding: 20;
+}
+h1{
+    color: crimson;
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.hobby{
+    background-color: beige;
+    color: sienna;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.hobby img {
+    width: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.work{
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+.friends{
+    background-color: bisque;
+    color: blueviolet;
+}
+
+.socmedia{
+    text-align: center;
+    background-color: 206, 245, 206;
+}
+
+.logo{
+    width: 15px;
+    height: 15px;
+}

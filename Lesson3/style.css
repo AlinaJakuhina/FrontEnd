@@ -1,0 +1,9 @@
+tr:nth-child(odd) { 
+    background: rgb(180, 174, 174);
+}
+
+tr :nth-child(6n+1){background-color: rgb(232, 232, 149);
+    
+}
+
+tr :nth-child(6n+2){background-color: rgb(228, 228, 93);}
