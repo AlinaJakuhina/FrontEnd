@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: stretch;
+    justify-content: center;
+    
+}
+
+article{
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px 0px gray;
+    box-shadow: inset;
+  
+}
+
+button{
+    background-color: rgb(151, 140, 140);
+    width: 100%;
+    color: white;
+    border: solid;
+    padding: 10px;
+}
+
+article img{
+    width: 100%; 
+    
+}
+
+.text{
+    padding: 0px 10px 10px;
+  
+}
