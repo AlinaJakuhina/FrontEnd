@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colomn1 button{
+    background-color: rgb(255, 211, 114);
+    color: white;
+    border-radius: 150px;
+    box-shadow: 0 0 0 2;
+    width: 100px;
+    height: 40px;
+    border: navajowhite;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.colomn1 form{
+    border: none;
+    width: 150%;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #fff;
+    outline: none;
+    padding-left: 50px;
+}
+
+.container{
+    padding: 45px;
+    width: 100%;
+}
+
+.contact h2{
+    padding: 50px 70px;
+    font-size:x-large;
+}
+
+.colomn1{
+    text-align: left;
+    display: flex;
+}
+
+.colomn1 input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    margin: 15px;
+    width: 400px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img{
+    width: 100%;
+}
+
+.mes{
+    margin-top: 40px;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+

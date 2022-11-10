@@ -1,0 +1,97 @@
+.nav_header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 241, 233);
+    height: 50px;
+}
+
+a, h1{
+    color: rgb(255, 211, 114);
+}
+  
+.logo{
+    padding: 20px;
+}
+
+.nav_header img{
+    padding-right: 30px;
+    margin-top: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px ;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+}
+
+footer{
+    background-color: rgb(51, 48, 48);
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100wh;
+}
+
+.bl1 h2{
+    color: rgb(255, 211, 114);
+}
+
+.row1{
+    margin: 20px;
+    padding: 10px 10%;
+    border: none;
+    border-bottom: solid 1px white;
+    display: flex;
+}
+
+.bl1, .bl2, .bl3{
+    width: 30%;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.row2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row1 h2{
+    margin-bottom: 10px;
+}
+
+.row1 input{
+    border-radius: 20px;
+    height: 35px;
+    width: 250px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+.bl3 button{
+    margin-top: 15px;
+    background-color: rgb(255, 211, 114);
+    color: white;
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
